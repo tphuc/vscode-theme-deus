@@ -1,0 +1,25 @@
+{
+  "name": "macos-deus-theme",
+  "displayName": "MacOS Deus Theme",
+  "description": "Just another dark theme for VSCode. Improvised on MacOS's themes.",
+  "version": "0.0.4",
+  "publisher": "FelixTran",
+  "scripts": {
+    "build": "vsce package"
+  },
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MacOS Deus Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MacOS Deus Theme-color-theme.json"
+      }
+    ]
+  }
+}
